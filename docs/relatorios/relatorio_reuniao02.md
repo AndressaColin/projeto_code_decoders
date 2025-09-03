@@ -50,8 +50,8 @@
 
 
 ## 6. Data da Próxima Reunião  
-**Data:** A definir  
-**Horário:** A definir  
+**Data:** 27/08/2025  
+**Horário:** 15:00  
 **Local/Plataforma:** Google Meet  
 
 
