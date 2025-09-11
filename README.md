@@ -13,7 +13,7 @@ Projeto dedicado ao desenvolvimento de uma plataforma aos clientes VTZ e Cerpa.
 ```bash
 vtz-site/
 │── README.md              # Documentação do projeto
-│── et --hard 8f3ae79      # Arquivo aleatório (verificar conteúdo)
+│── et --hard 8f3ae79      # historico de commits andressa 
 │── /public/
 │     ├── index.html        # Site institucional - Home
 │     ├── sobre.html        # Sobre a empresa
