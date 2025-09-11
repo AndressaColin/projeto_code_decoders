@@ -1,0 +1,22 @@
+/* Hero */
+.hero {
+  background: url('../img/sua-imagem-banner.jpg') center/cover no-repeat;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #198754; /* verde bootstrap */
+  color: white;
+  padding: 40px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
