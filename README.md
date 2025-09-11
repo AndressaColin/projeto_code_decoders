@@ -5,10 +5,12 @@
   <small>Logo DECODERS</small>
 </p>
 
-Este repositório contém o desenvolvimento do sistema de controle de estoque e site de exposição, voltado para atender demandas do setor de agronegócio. 
+Este repositório contém o desenvolvimento do sistema de controle de estoque e site de exposição, voltado para atender demandas do setor de agronegócio.
 
+## descrição do projeto
+Projeto dedicado ao desenvolvimento de uma plataforma aos clientes VTZ e Cerpa.
 ## Estrutura do Documento
-'''bash
+```bash
 vtz-site/
 │── README.md              # Documentação do projeto
 │── et --hard 8f3ae79      # Arquivo aleatório (verificar conteúdo)
@@ -32,7 +34,7 @@ vtz-site/
 ## Equipe
 | Nome                | Função/Responsabilidade               |
 |---------------------|-----------------------------|
-| Lucas Junior Arteaga Yucra          | Desenvolvedor |
+| Lucas Junior Arteaga Yucra          | Desenvolvedor Líder |
 | Andressa Colin Barbosa          | Desenvolvedor       |
 | Breno Dantas          | Desenvolvedor              |
 | Henricky          | Analista de Requisitos      |
