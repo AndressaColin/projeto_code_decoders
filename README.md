@@ -16,8 +16,8 @@ vtz-site/
 │── et --hard 8f3ae79      # historico de commits andressa 
 │── /public/
 │     ├── index.html        # Site institucional - Home
-│     ├── sobre.html        # Sobre a empresa
-│     ├── produtos.html     # Produtos/Serviços
+│     ├── infraestrutura.html        # infra da empresa
+│     ├── catalogo.html     # Produtos/Serviços
 │     └── contato.html      # Contato
 │── /estoque/                # Área restrita de funcionários (vazia por enquanto)
 │── /assets/
