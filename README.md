@@ -8,10 +8,26 @@
 Este repositório contém o desenvolvimento do sistema de controle de estoque e site de exposição, voltado para atender demandas do setor de agronegócio. 
 
 ## Estrutura do Documento
-- [Assets](/assets)
-- [Docs](/docs)
-
-## Descrição do Projeto
+'''bash
+vtz-site/
+│── README.md              # Documentação do projeto
+│── et --hard 8f3ae79      # Arquivo aleatório (verificar conteúdo)
+│── /public/
+│     ├── index.html        # Site institucional - Home
+│     ├── sobre.html        # Sobre a empresa
+│     ├── produtos.html     # Produtos/Serviços
+│     └── contato.html      # Contato
+│── /estoque/                # Área restrita de funcionários (vazia por enquanto)
+│── /assets/
+│     ├── images/     # Imagens gerais do site
+│     ├── logos/      # Logos da empresa
+│     ├── prototipo/  # Protótipos (ex: do Figma)
+│     ├── scripts/    # Arquivos JS
+│     └── style/      # Arquivos CSS
+│── /docs/                 # Documentos do projeto
+│     ├── requisitos/     # Documentos de requisitos
+│     ├── diagramas/      # Diagramas do sistema
+│     └── relatorios/     # Relatórios de progresso
 
 ## Equipe
 | Nome                | Função/Responsabilidade               |
