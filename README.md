@@ -30,6 +30,7 @@ vtz-site/
 │     ├── requisitos/     # Documentos de requisitos
 │     ├── diagramas/      # Diagramas do sistema
 │     └── relatorios/     # Relatórios de progresso
+```
 
 ## Equipe
 | Nome                | Função/Responsabilidade               |
