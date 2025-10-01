@@ -9,6 +9,14 @@
   text-align: center;
 }
 
+/* Centralização do Menu Principal da Navbar */
+@media (min-width: 992px) {
+  #navbarNav > ul:first-child {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 
 .col-md-6 img{
   width: 70%;
