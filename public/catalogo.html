@@ -5,31 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Catálogo - VTZ Agronegócios</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="catalogo.css" />
+  <link rel="stylesheet" href="../assets/style/catologo.css" />
 </head>
 <body>
-  <!-- Cabeçalho -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">VTZ Agronegócios</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Página Inicial</a></li>
-          <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
-          <li class="nav-item"><a class="nav-link" href="infraestrutura.html">Infraestrutura</a></li>
-          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Cadastro</a></li>
-        </ul>
-      </div>
+<!-- Cabeçalho -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="catalogo.html">VTZ Agronegócios</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Página Inicial</a></li>
+        <li class="nav-item"><a class="nav-link active" href="catalogo.html">Catálogo</a></li>
+        <li class="nav-item"><a class="nav-link" href="infraestrutura.html">Infraestrutura</a></li>
+        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+      </ul>
+
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Cadastro</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- Banner -->
   <section class="banner">
@@ -43,19 +46,19 @@
     <div class="catalogo">
 
       <div class="card">
-        <img src="nabo.jpg" width="300" height="200">
+        <img src="../assets/images/nabo.jpg" width="300" height="200">
         <h3>Nabo Forrageiro</h3>
         <button onclick="abrirModal('modalNabo')">Ver Mais</button>
       </div>
 
       <div class="card">
-        <img src="trigo-mourisco.webp" width="300" height="200">
+        <img src="../assets/images/trigo-mourisco.webp" width="300" height="200">
         <h3>Trigo Mourisco</h3>
         <button onclick="abrirModal('modalTrigo')">Ver Mais</button>
       </div>
 
       <div class="card">
-        <img src="brachiaria.png" width="300" height="200">
+        <img src="../assets/images/brachiaria.png" width="300" height="200">
         <h3>Brachiarias</h3>
         <button onclick="abrirModal('modalBrachiaria')">Ver Mais</button>
       </div>
