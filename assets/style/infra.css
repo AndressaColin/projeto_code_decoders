@@ -49,20 +49,13 @@
 	pointer-events: none;
 }
 
-
-@media (max-width: 992px) {
-	.hero { min-height: 30vh; padding: 2.2rem 0; }
-	.hero h1 { font-size: 1.8rem; }
-}
-
-@media (max-width: 576px) {
-	.hero { min-height: 26vh; padding: 1.4rem 0; }
-	.hero h1 { font-size: 1.4rem; }
-	.hero p.lead { font-size: 0.95rem; }
-}
-
-@media (min-width: 1400px) {
-	.hero { min-height: 42vh; }
+/* Centralização do Menu Principal da Navbar */
+@media (min-width: 992px) {
+  #navbarNav > ul:first-child {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 /* carrossel */
@@ -75,6 +68,5 @@
 .diferenciais .card-like {
 	background: #fff; border-radius: 8px; padding: 1.25rem; box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
-
 
 footer { padding: 2.25rem 0; }
