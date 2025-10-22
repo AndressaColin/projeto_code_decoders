@@ -13,13 +13,15 @@ Projeto dedicado ao desenvolvimento de uma plataforma aos clientes VTZ e Cerpa.
 ```bash
 vtz-site/
 │── README.md              # Documentação do projeto
-│── et --hard 8f3ae79      # historico de commits andressa 
+│── /private/       
+│     ├── sistemaEstoque.html        # página estoque  
 │── /public/
-│     ├── index.html        # Site institucional - Home
-│     ├── infraestrutura.html        # infra da empresa
-│     ├── catalogo.html     # Produtos/Serviços
-│     └── contato.html      # Contato
-│── /estoque/                # Área restrita de funcionários (vazia por enquanto)
+│     ├── index.html            # Site institucional - Home
+│     ├── infraestrutura.html   # infra da empresa
+│     ├── catalogo.html         # Produtos/Serviços
+│     ├── login.html
+│     ├── cadastro.html
+│     └── contato.html          # Contato
 │── /assets/
 │     ├── images/     # Imagens gerais do site
 │     ├── logos/      # Logos da empresa
@@ -33,10 +35,9 @@ vtz-site/
 ```
 
 ## Equipe
-| Nome                | Função/Responsabilidade               |
+| Nome                | Função/Responsabilidade     |
 |---------------------|-----------------------------|
-| Lucas Junior Arteaga Yucra          | Desenvolvedor Líder |
-| Andressa Colin Barbosa          | Desenvolvedor       |
-| Breno Dantas          | Desenvolvedor              |
-| Henricky          | Analista de Requisitos      |
-| Douglas          | Analista de Requisitos                |
+| Andressa Colin      | Desenvolvedor Líder         |
+| Lucas Junior Arteaga| Desenvolvedor               |
+| Breno Dantas        | Desenvolvedor               |
+| Douglas             | Analista de Requisitos      |
