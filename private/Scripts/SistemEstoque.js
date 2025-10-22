@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const loggedUser = localStorage.getItem('loggedUser');
     if (!loggedUser) {
-        window.location.href = "Login.html";
+        window.location.href = "/public/Login.html";
     }
 });
 
@@ -748,4 +748,5 @@ function handleSearch() {
 function logout() {
   localStorage.removeItem('loggedUser');
   window.location.href = "Login.html";
+
 }
