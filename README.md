@@ -12,21 +12,21 @@ Projeto dedicado ao desenvolvimento de uma plataforma aos clientes VTZ e Cerpa.
 ## Estrutura do Documento
 ```bash
 vtz-site/
-│── README.md              # Documentação do projeto
+│── README.md                   # Documentação do projeto
 │── /private/       
-│     ├── sistemaEstoque.html        # página estoque  
+│     ├── sistemaEstoque.html   # estoque
+│     ├── cadastro.php          # form cadastro
+│     ├── login.php             # form login
+│     └── conexao.php           # conexão banco de dados  
 │── /public/
 │     ├── index.html            # Site institucional - Home
 │     ├── infraestrutura.html   # infra da empresa
 │     ├── catalogo.html         # Produtos/Serviços
-│     ├── login.html
-│     ├── cadastro.html
 │     └── contato.html          # Contato
 │── /assets/
 │     ├── images/     # Imagens gerais do site
 │     ├── logos/      # Logos da empresa
 │     ├── prototipo/  # Protótipos (ex: do Figma)
-│     ├── scripts/    # Arquivos JS
 │     └── style/      # Arquivos CSS
 │── /docs/                 # Documentos do projeto
 │     ├── requisitos/     # Documentos de requisitos
